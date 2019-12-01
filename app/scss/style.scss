@@ -1,0 +1,166 @@
+$bg-color: #292929;
+$font-color: white;
+$different-color: #ecd407;
+$form-color: #001d8a;
+
+p,
+label,
+.przycisk {
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    color: $different-color;
+}
+
+label {
+    margin-top: 10px;
+    color: $font-color;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 15px;
+    color: $font-color;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.przycisk {
+    width: 30%;
+    height: 50px;
+    background-color: $different-color;
+    margin: 0;
+    border: 0;
+    font-weight: bold;
+}
+
+
+.glowna {
+    height: 100vh;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $bg-color;
+
+    div {
+        height: 20vh;
+
+        .gora {
+
+            .col-md-3.finanse {
+                display: flex;
+                flex-direction: row;
+
+                .text-left {
+                    margin-top: 10px;
+                    font-size: 25px;
+                    margin-left: 0;
+                }
+            }
+
+            .col-md-3.telefonIkona {
+                color: $font-color;
+                font-size: 30px;
+                display: flex;
+                justify-content: flex-end;
+                margin-right: 0;
+                margin-top: 15px;
+            }
+
+            .col-md-3 {
+                margin-left: 0;
+
+                .text-left.zadzwon {
+                    margin-bottom: 0px;
+                    margin-top: 15px;
+                    font-size: 10px;
+                }
+
+                .text-left.numer {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .centrum {
+            p {
+                font-size: 20px;
+            }
+
+            div {
+
+                
+                .form {
+                    margin-top: 15px;
+                    
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+
+                    background-color: $form-color;
+
+                    label {
+                        width: 100%;
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+.fas.fa-university {
+    margin-top: 10px;
+    color: $different-color;
+    font-size: 30px;
+    margin-right: 8px;
+}
+
+.fas.fa-envelope,
+.fas.fa-phone.foot {
+    color: $bg-color;
+    background-color: $different-color;
+    font-size: 20px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+
+.container-fluid {
+    height: 100vh;
+}
+
+.text-left,
+.text-center {
+    color: $font-color;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer {
+    background-color: $bg-color;
+
+    .container-fluid {
+        background-color: $bg-color;
+        height: 30vh;
+    }
+}
+
+.text-center.tekstKoncowy {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.col-md-6.ikony {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
